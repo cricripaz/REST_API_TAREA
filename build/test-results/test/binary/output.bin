@@ -1,0 +1,2750 @@
+ -------------CREATE------------
+Request method:	POST
+,Request URI:	https://todo.ly/api/items.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+;Headers:		Authorization=Basic dXBiX2FwaUBhcGkuY29tOjEyMzQ1
+				Accept=*/*
+0				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"Content":"CristianJSON"}
+HTTP/1.1 200 OK
+3Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+.Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+WSet-Cookie: ASP.NET_SessionId=z3z5vcj53zqr2ylnl5zmkawg; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+$Date: Fri, 25 Feb 2022 05:04:32 GMT
+Content-Length: 533
+
+{
+    "Id": 11003354,
+    "Content": "CristianJSON",
+    "ItemType": 1,
+    "Checked": false,
+    "ProjectId": null,
+    "ParentId": null,
+    "Path": "",
+    "Collapsed": false,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+3    "LastSyncedDateTime": "/Date(1645765472434)/",
+    "Children": [
+	        
+    ],
+    "DueDateTime": null,
+,    "CreatedDate": "/Date(1645765472403)/",
+    "LastCheckedDate": null,
+0    "LastUpdatedDate": "/Date(1645765472403)/",
+    "Deleted": false,
+    "Notes": "",
+    "InHistory": false,
+"    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 701882
+}
+-------------READ------------
+Request method:	GET
+,Request URI:	https://todo.ly/api/items.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+;Headers:		Authorization=Basic dXBiX2FwaUBhcGkuY29tOjEyMzQ1
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+3Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+.Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+WSet-Cookie: ASP.NET_SessionId=uhtfyiohxyonduiollvn5mg1; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+$Date: Fri, 25 Feb 2022 05:04:34 GMT
+Content-Length: 45961
+
+[
+    {
+        "Id": 11002951,
+"        "Content": "LucianoItem",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645710216210)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645710216210)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11002952,
+"        "Content": "LucianoItem",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645710246647)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645710246647)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11002953,
+*        "Content": "AlejandraItemUpdate",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645710364907)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645710679283)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11002954,
++        "Content": "RodrigoVItemExternal",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645710489093)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645710489110)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11002955,
+'        "Content": "RodrigoVItemJSON",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645710490357)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645710490357)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11002956,
+-        "Content": "RodrigoItemRestAssured",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645710491433)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645710491433)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11002958,
+&        "Content": "RodrigoItemJSON",
+        "ItemType": 1,
+        "Checked": true,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645710754987)/",
+4        "LastCheckedDate": "/Date(1645710758090)/",
+4        "LastUpdatedDate": "/Date(1645710758090)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": true,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11002959,
+&        "Content": "RodrigoItemJSON",
+        "ItemType": 1,
+        "Checked": true,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645710815497)/",
+4        "LastCheckedDate": "/Date(1645710818820)/",
+4        "LastUpdatedDate": "/Date(1645710818820)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": true,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11002962,
+"        "Content": "LucianoItem",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645710945223)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645710945223)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11002963,
+"        "Content": "LucianoItem",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645710946593)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645710946593)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11002964,
+*        "Content": "RodrigoCRUDItemJSON",
+        "ItemType": 1,
+        "Checked": true,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645710947670)/",
+4        "LastCheckedDate": "/Date(1645710950620)/",
+4        "LastUpdatedDate": "/Date(1645710950620)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": true,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11002965,
+-        "Content": "LucianoRestAssuredItem",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645710947670)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645710947687)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003003,
+"        "Content": "KenCRUDItem",
+        "ItemType": 1,
+        "Checked": true,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645715379940)/",
+4        "LastCheckedDate": "/Date(1645716433933)/",
+4        "LastUpdatedDate": "/Date(1645716433933)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": true,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003004,
+!        "Content": "KenItemOne",
+        "ItemType": 1,
+        "Checked": true,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645715382340)/",
+4        "LastCheckedDate": "/Date(1645716434653)/",
+4        "LastUpdatedDate": "/Date(1645716434653)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": true,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003066,
+$        "Content": "AlejandraItem",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645718349803)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645718349803)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003067,
+/        "Content": "AlejandraRestAssuredItem",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645718351050)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645718351050)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003068,
+(        "Content": "AlejandraJSONItem",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645718352140)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645718352140)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003085,
+$        "Content": "AlejandraItem",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645718940010)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645718940010)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003097,
+$        "Content": "AlejandraItem",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645719121977)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645719121977)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003122,
+        "Content": "New Item",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645725275867)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645725275867)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003147,
+        "Content": "New Item",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645728144583)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645728144583)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003175,
+        "Content": "NewItem",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645732833557)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645732833570)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003176,
+        "Content": "NewItem",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645732885970)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645732885987)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003190,
+         "Content": "JoelItem1",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645736239533)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645736239533)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003193,
+)        "Content": "JoelItemJSONobject",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645736275240)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645736275240)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003195,
+#        "Content": "JoelExternal",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645736350587)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645736350587)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003196,
+%        "Content": "JoelItemCreate",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645736423543)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645736423543)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003197,
+#        "Content": "JoelItemRead",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645736486487)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645736486487)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003198,
+        "Content": "JoelItem",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645736520247)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645736520247)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003199,
+%        "Content": "JoelItemUpdate",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645736550213)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645736550213)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003201,
+        "Content": "JoelItem",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645736588243)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645736588243)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003202,
+#        "Content": "JoelItemRead",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645736620287)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645736620287)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003203,
+%        "Content": "JoelItemUpdate",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645736647240)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645736647240)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003204,
+%        "Content": "JoelItemUpdate",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645736674307)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645736674307)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003206,
+%        "Content": "JoelItemCreate",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645736725410)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645736725410)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003207,
+#        "Content": "JoelItemRead",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645736727453)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645736727453)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003208,
+#        "Content": "JoelExternal",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645736729857)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645736729857)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003209,
+%        "Content": "JoelItemUpdate",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645736730917)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645736730917)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003211,
+         "Content": "JoelItem1",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645736736500)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645736736500)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003212,
+)        "Content": "JoelItemJSONobject",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645736737670)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645736737670)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003214,
+"        "Content": "JoelPostman",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645737620370)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645737620370)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003232,
+         "Content": "EynarJSON",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645743090580)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645743090580)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003233,
+        "Content": "mi item",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645743179717)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645743179717)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003238,
+        "Content": "mi item",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645743526710)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645743526710)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003263,
+2        "Content": "Item_1-VargasSantiagoUpdate",
+        "ItemType": 1,
+        "Checked": true,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645753868707)/",
+4        "LastCheckedDate": "/Date(1645754588950)/",
+4        "LastUpdatedDate": "/Date(1645754588950)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": true,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003267,
+,        "Content": "Item_1-VargasSantiago",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645754381897)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645754381897)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003268,
+,        "Content": "Item_2-VargasSantiago",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645754442050)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645754442050)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003276,
+,        "Content": "Item_5-VargasSantiago",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645754710440)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645754710440)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003286,
+         "Content": "ErickItem",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645755345587)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645755345587)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003287,
+!        "Content": "ErickItem2",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645755428187)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645755428187)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003288,
+!        "Content": "ErickItem2",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645755461227)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645755461227)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003289,
+!        "Content": "ErickItem2",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645755683067)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645755683067)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003290,
+!        "Content": "ErickItem2",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645755738477)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645755738477)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003291,
+!        "Content": "ErickItem2",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645755767680)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645755767693)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003292,
+!        "Content": "ErickItem2",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645755795383)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645755795383)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003293,
+!        "Content": "ErickItem2",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645755824507)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645755824507)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003294,
+         "Content": "ErickJSON",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645756171517)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645756171517)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003295,
+         "Content": "ErickJSON",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645756257270)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645756257270)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003301,
+#        "Content": "SantiagoItem",
+        "ItemType": 1,
+        "Checked": true,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645756801270)/",
+4        "LastCheckedDate": "/Date(1645756807463)/",
+4        "LastUpdatedDate": "/Date(1645756807463)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": true,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003302,
+#        "Content": "SantiagoItem",
+        "ItemType": 1,
+        "Checked": true,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645756824590)/",
+4        "LastCheckedDate": "/Date(1645756829647)/",
+4        "LastUpdatedDate": "/Date(1645756829647)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": true,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003304,
+,        "Content": "Item_1-VargasSantiago",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645757467867)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645757467867)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003305,
+,        "Content": "Item_1-VargasSantiago",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645757470160)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645757470160)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003306,
+.        "Content": "SantiagoRestAssuredItem",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645757471377)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645757471377)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003310,
+,        "Content": "Item_1-VargasSantiago",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645757985893)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645757985893)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003311,
+,        "Content": "Item_1-VargasSantiago",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645757988017)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645757988017)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003312,
+.        "Content": "SantiagoRestAssuredItem",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645757989233)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645757989233)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003315,
+-        "Content": "Cristian Item 2 Update",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645758290507)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645758423180)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003328,
+#        "Content": "CristianJSON",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645763699973)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645763699990)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003331,
+#        "Content": "CristianJSON",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645764284487)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645764284487)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003333,
+#        "Content": "CristianJSON",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645764591763)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645764591763)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003334,
+#        "Content": "CristianJSON",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645764662977)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645764662977)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003342,
+#        "Content": "CristianJSON",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645764842183)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645764842183)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003343,
+#        "Content": "CristianJSON",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645764900400)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645764900400)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003346,
+#        "Content": "CristianJSON",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645764977447)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645764977447)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003348,
+#        "Content": "CristianJSON",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645765030283)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645765030283)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003350,
+#        "Content": "CristianJSON",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645765043870)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645765043870)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003351,
+#        "Content": "CristianJSON",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645765103723)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645765103723)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003352,
+#        "Content": "CristianJSON",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645765177900)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645765177900)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003353,
+*        "Content": "CristianJSON_UPDATE",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645765242560)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645765245603)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11003354,
+#        "Content": "CristianJSON",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645765472403)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645765472403)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11002585,
+:        "Content": "Add new tasks using the field below",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": 3981478,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": 0,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645615891103)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645615891103)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": null,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11002586,
+y        "Content": "Move items to different project using drag and drop. (Drag the small handler in front of the task)",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": 3981478,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": 1,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645615891103)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645615891103)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": null,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11002589,
+^        "Content": "You can drag and drop task on each other to create sub tasks, like this",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": 3981478,
+        "ParentId": 11002588,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": 1,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645615891103)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645615891103)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": null,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11002587,
+€        "Content": "Hover your mouse over a project or item and click the icon on the right side of the item for more options",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": 3981478,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": false,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": 2,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645615891103)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645615891103)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": null,
+        "OwnerId": 701882
+    },
+    {
+        "Id": 11002588,
+4        "Content": "Try to drag and reorder items",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": 3981478,
+        "ParentId": null,
+        "Path": "",
+        "Collapsed": true,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": 3,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1645765474711)/",
+        "Children": [
+            
+        ],
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1645615891103)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1645707542817)/",
+        "Deleted": false,
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": null,
+        "OwnerId": 701882
+    }
+]
+ -------------UPDATE------------
+Request method:	PUT
+5Request URI:	https://todo.ly/api/items/11003354.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+;Headers:		Authorization=Basic dXBiX2FwaUBhcGkuY29tOjEyMzQ1
+				Accept=*/*
+0				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+"{"Content":"CristianJSON_UPDATE"}
+HTTP/1.1 200 OK
+3Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+.Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+WSet-Cookie: ASP.NET_SessionId=20zgigrmeprxreae2lveik43; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+$Date: Fri, 25 Feb 2022 05:04:36 GMT
+Content-Length: 540
+
+{
+    "Id": 11003354,
+&    "Content": "CristianJSON_UPDATE",
+    "ItemType": 1,
+    "Checked": false,
+    "ProjectId": null,
+    "ParentId": null,
+    "Path": "",
+    "Collapsed": false,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+3    "LastSyncedDateTime": "/Date(1645765476334)/",
+    "Children": [
+	        
+    ],
+    "DueDateTime": null,
+,    "CreatedDate": "/Date(1645765472403)/",
+    "LastCheckedDate": null,
+0    "LastUpdatedDate": "/Date(1645765476320)/",
+    "Deleted": false,
+    "Notes": "",
+    "InHistory": false,
+"    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 701882
+}
+ -------------DELETE------------
+Request method:	DELETE
+5Request URI:	https://todo.ly/api/items/11003342.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+;Headers:		Authorization=Basic dXBiX2FwaUBhcGkuY29tOjEyMzQ1
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+3Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+.Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+WSet-Cookie: ASP.NET_SessionId=bpk4m25xrhtaezsxzn3q33dj; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+$Date: Fri, 25 Feb 2022 05:04:37 GMT
+Content-Length: 532
+
+{
+    "Id": 11003342,
+    "Content": "CristianJSON",
+    "ItemType": 1,
+    "Checked": false,
+    "ProjectId": null,
+    "ParentId": null,
+    "Path": "",
+    "Collapsed": false,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+3    "LastSyncedDateTime": "/Date(1645765477410)/",
+    "Children": [
+	        
+    ],
+    "DueDateTime": null,
+,    "CreatedDate": "/Date(1645764842183)/",
+    "LastCheckedDate": null,
+0    "LastUpdatedDate": "/Date(1645765477380)/",
+    "Deleted": true,
+    "Notes": "",
+    "InHistory": false,
+"    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 701882
+}

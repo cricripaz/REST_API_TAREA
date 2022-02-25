@@ -1,0 +1,2855 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - CRUD_ITEM</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>CRUD_ITEM</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/TareaTest.html">TareaTest</a> &gt; CRUD_ITEM</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">7.568s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">CRUD_PROJECT()</td>
+<td class="success">7.568s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>-------------CREATE------------
+Request method:	POST
+Request URI:	https://todo.ly/api/items.json
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Authorization=Basic dXBiX2FwaUBhcGkuY29tOjEyMzQ1
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{&quot;Content&quot;:&quot;CristianJSON&quot;}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=z3z5vcj53zqr2ylnl5zmkawg; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 25 Feb 2022 05:04:32 GMT
+Content-Length: 533
+
+{
+    &quot;Id&quot;: 11003354,
+    &quot;Content&quot;: &quot;CristianJSON&quot;,
+    &quot;ItemType&quot;: 1,
+    &quot;Checked&quot;: false,
+    &quot;ProjectId&quot;: null,
+    &quot;ParentId&quot;: null,
+    &quot;Path&quot;: &quot;&quot;,
+    &quot;Collapsed&quot;: false,
+    &quot;DateString&quot;: null,
+    &quot;DateStringPriority&quot;: 0,
+    &quot;DueDate&quot;: &quot;&quot;,
+    &quot;Recurrence&quot;: null,
+    &quot;ItemOrder&quot;: null,
+    &quot;Priority&quot;: 4,
+    &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765472434)/&quot;,
+    &quot;Children&quot;: [
+        
+    ],
+    &quot;DueDateTime&quot;: null,
+    &quot;CreatedDate&quot;: &quot;/Date(1645765472403)/&quot;,
+    &quot;LastCheckedDate&quot;: null,
+    &quot;LastUpdatedDate&quot;: &quot;/Date(1645765472403)/&quot;,
+    &quot;Deleted&quot;: false,
+    &quot;Notes&quot;: &quot;&quot;,
+    &quot;InHistory&quot;: false,
+    &quot;SyncClientCreationId&quot;: null,
+    &quot;DueTimeSpecified&quot;: true,
+    &quot;OwnerId&quot;: 701882
+}
+-------------READ------------
+Request method:	GET
+Request URI:	https://todo.ly/api/items.json
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Authorization=Basic dXBiX2FwaUBhcGkuY29tOjEyMzQ1
+				Accept=*/*
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=uhtfyiohxyonduiollvn5mg1; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 25 Feb 2022 05:04:34 GMT
+Content-Length: 45961
+
+[
+    {
+        &quot;Id&quot;: 11002951,
+        &quot;Content&quot;: &quot;LucianoItem&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645710216210)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645710216210)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11002952,
+        &quot;Content&quot;: &quot;LucianoItem&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645710246647)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645710246647)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11002953,
+        &quot;Content&quot;: &quot;AlejandraItemUpdate&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645710364907)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645710679283)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11002954,
+        &quot;Content&quot;: &quot;RodrigoVItemExternal&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645710489093)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645710489110)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11002955,
+        &quot;Content&quot;: &quot;RodrigoVItemJSON&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645710490357)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645710490357)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11002956,
+        &quot;Content&quot;: &quot;RodrigoItemRestAssured&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645710491433)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645710491433)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11002958,
+        &quot;Content&quot;: &quot;RodrigoItemJSON&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: true,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645710754987)/&quot;,
+        &quot;LastCheckedDate&quot;: &quot;/Date(1645710758090)/&quot;,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645710758090)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: true,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11002959,
+        &quot;Content&quot;: &quot;RodrigoItemJSON&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: true,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645710815497)/&quot;,
+        &quot;LastCheckedDate&quot;: &quot;/Date(1645710818820)/&quot;,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645710818820)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: true,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11002962,
+        &quot;Content&quot;: &quot;LucianoItem&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645710945223)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645710945223)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11002963,
+        &quot;Content&quot;: &quot;LucianoItem&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645710946593)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645710946593)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11002964,
+        &quot;Content&quot;: &quot;RodrigoCRUDItemJSON&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: true,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645710947670)/&quot;,
+        &quot;LastCheckedDate&quot;: &quot;/Date(1645710950620)/&quot;,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645710950620)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: true,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11002965,
+        &quot;Content&quot;: &quot;LucianoRestAssuredItem&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645710947670)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645710947687)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003003,
+        &quot;Content&quot;: &quot;KenCRUDItem&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: true,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645715379940)/&quot;,
+        &quot;LastCheckedDate&quot;: &quot;/Date(1645716433933)/&quot;,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645716433933)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: true,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003004,
+        &quot;Content&quot;: &quot;KenItemOne&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: true,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645715382340)/&quot;,
+        &quot;LastCheckedDate&quot;: &quot;/Date(1645716434653)/&quot;,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645716434653)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: true,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003066,
+        &quot;Content&quot;: &quot;AlejandraItem&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645718349803)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645718349803)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003067,
+        &quot;Content&quot;: &quot;AlejandraRestAssuredItem&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645718351050)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645718351050)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003068,
+        &quot;Content&quot;: &quot;AlejandraJSONItem&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645718352140)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645718352140)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003085,
+        &quot;Content&quot;: &quot;AlejandraItem&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645718940010)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645718940010)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003097,
+        &quot;Content&quot;: &quot;AlejandraItem&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645719121977)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645719121977)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003122,
+        &quot;Content&quot;: &quot;New Item&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645725275867)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645725275867)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003147,
+        &quot;Content&quot;: &quot;New Item&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645728144583)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645728144583)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003175,
+        &quot;Content&quot;: &quot;NewItem&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645732833557)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645732833570)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003176,
+        &quot;Content&quot;: &quot;NewItem&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645732885970)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645732885987)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003190,
+        &quot;Content&quot;: &quot;JoelItem1&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645736239533)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645736239533)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003193,
+        &quot;Content&quot;: &quot;JoelItemJSONobject&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645736275240)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645736275240)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003195,
+        &quot;Content&quot;: &quot;JoelExternal&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645736350587)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645736350587)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003196,
+        &quot;Content&quot;: &quot;JoelItemCreate&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645736423543)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645736423543)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003197,
+        &quot;Content&quot;: &quot;JoelItemRead&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645736486487)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645736486487)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003198,
+        &quot;Content&quot;: &quot;JoelItem&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645736520247)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645736520247)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003199,
+        &quot;Content&quot;: &quot;JoelItemUpdate&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645736550213)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645736550213)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003201,
+        &quot;Content&quot;: &quot;JoelItem&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645736588243)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645736588243)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003202,
+        &quot;Content&quot;: &quot;JoelItemRead&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645736620287)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645736620287)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003203,
+        &quot;Content&quot;: &quot;JoelItemUpdate&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645736647240)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645736647240)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003204,
+        &quot;Content&quot;: &quot;JoelItemUpdate&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645736674307)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645736674307)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003206,
+        &quot;Content&quot;: &quot;JoelItemCreate&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645736725410)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645736725410)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003207,
+        &quot;Content&quot;: &quot;JoelItemRead&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645736727453)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645736727453)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003208,
+        &quot;Content&quot;: &quot;JoelExternal&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645736729857)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645736729857)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003209,
+        &quot;Content&quot;: &quot;JoelItemUpdate&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645736730917)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645736730917)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003211,
+        &quot;Content&quot;: &quot;JoelItem1&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645736736500)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645736736500)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003212,
+        &quot;Content&quot;: &quot;JoelItemJSONobject&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645736737670)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645736737670)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003214,
+        &quot;Content&quot;: &quot;JoelPostman&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645737620370)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645737620370)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003232,
+        &quot;Content&quot;: &quot;EynarJSON&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645743090580)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645743090580)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003233,
+        &quot;Content&quot;: &quot;mi item&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645743179717)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645743179717)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003238,
+        &quot;Content&quot;: &quot;mi item&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645743526710)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645743526710)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003263,
+        &quot;Content&quot;: &quot;Item_1-VargasSantiagoUpdate&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: true,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645753868707)/&quot;,
+        &quot;LastCheckedDate&quot;: &quot;/Date(1645754588950)/&quot;,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645754588950)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: true,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003267,
+        &quot;Content&quot;: &quot;Item_1-VargasSantiago&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645754381897)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645754381897)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003268,
+        &quot;Content&quot;: &quot;Item_2-VargasSantiago&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645754442050)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645754442050)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003276,
+        &quot;Content&quot;: &quot;Item_5-VargasSantiago&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645754710440)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645754710440)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003286,
+        &quot;Content&quot;: &quot;ErickItem&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645755345587)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645755345587)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003287,
+        &quot;Content&quot;: &quot;ErickItem2&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645755428187)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645755428187)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003288,
+        &quot;Content&quot;: &quot;ErickItem2&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645755461227)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645755461227)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003289,
+        &quot;Content&quot;: &quot;ErickItem2&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645755683067)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645755683067)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003290,
+        &quot;Content&quot;: &quot;ErickItem2&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645755738477)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645755738477)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003291,
+        &quot;Content&quot;: &quot;ErickItem2&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645755767680)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645755767693)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003292,
+        &quot;Content&quot;: &quot;ErickItem2&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645755795383)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645755795383)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003293,
+        &quot;Content&quot;: &quot;ErickItem2&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645755824507)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645755824507)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003294,
+        &quot;Content&quot;: &quot;ErickJSON&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645756171517)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645756171517)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003295,
+        &quot;Content&quot;: &quot;ErickJSON&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645756257270)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645756257270)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003301,
+        &quot;Content&quot;: &quot;SantiagoItem&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: true,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645756801270)/&quot;,
+        &quot;LastCheckedDate&quot;: &quot;/Date(1645756807463)/&quot;,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645756807463)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: true,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003302,
+        &quot;Content&quot;: &quot;SantiagoItem&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: true,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645756824590)/&quot;,
+        &quot;LastCheckedDate&quot;: &quot;/Date(1645756829647)/&quot;,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645756829647)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: true,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003304,
+        &quot;Content&quot;: &quot;Item_1-VargasSantiago&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645757467867)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645757467867)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003305,
+        &quot;Content&quot;: &quot;Item_1-VargasSantiago&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645757470160)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645757470160)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003306,
+        &quot;Content&quot;: &quot;SantiagoRestAssuredItem&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645757471377)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645757471377)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003310,
+        &quot;Content&quot;: &quot;Item_1-VargasSantiago&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645757985893)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645757985893)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003311,
+        &quot;Content&quot;: &quot;Item_1-VargasSantiago&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645757988017)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645757988017)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003312,
+        &quot;Content&quot;: &quot;SantiagoRestAssuredItem&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645757989233)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645757989233)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003315,
+        &quot;Content&quot;: &quot;Cristian Item 2 Update&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645758290507)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645758423180)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003328,
+        &quot;Content&quot;: &quot;CristianJSON&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645763699973)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645763699990)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003331,
+        &quot;Content&quot;: &quot;CristianJSON&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645764284487)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645764284487)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003333,
+        &quot;Content&quot;: &quot;CristianJSON&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645764591763)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645764591763)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003334,
+        &quot;Content&quot;: &quot;CristianJSON&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645764662977)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645764662977)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003342,
+        &quot;Content&quot;: &quot;CristianJSON&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645764842183)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645764842183)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003343,
+        &quot;Content&quot;: &quot;CristianJSON&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645764900400)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645764900400)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003346,
+        &quot;Content&quot;: &quot;CristianJSON&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645764977447)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645764977447)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003348,
+        &quot;Content&quot;: &quot;CristianJSON&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645765030283)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645765030283)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003350,
+        &quot;Content&quot;: &quot;CristianJSON&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645765043870)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645765043870)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003351,
+        &quot;Content&quot;: &quot;CristianJSON&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645765103723)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645765103723)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003352,
+        &quot;Content&quot;: &quot;CristianJSON&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645765177900)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645765177900)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003353,
+        &quot;Content&quot;: &quot;CristianJSON_UPDATE&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645765242560)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645765245603)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11003354,
+        &quot;Content&quot;: &quot;CristianJSON&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: null,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: null,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645765472403)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645765472403)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: true,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11002585,
+        &quot;Content&quot;: &quot;Add new tasks using the field below&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: 3981478,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: 0,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645615891103)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645615891103)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: null,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11002586,
+        &quot;Content&quot;: &quot;Move items to different project using drag and drop. (Drag the small handler in front of the task)&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: 3981478,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: 1,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645615891103)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645615891103)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: null,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11002589,
+        &quot;Content&quot;: &quot;You can drag and drop task on each other to create sub tasks, like this&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: 3981478,
+        &quot;ParentId&quot;: 11002588,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: 1,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645615891103)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645615891103)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: null,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11002587,
+        &quot;Content&quot;: &quot;Hover your mouse over a project or item and click the icon on the right side of the item for more options&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: 3981478,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: false,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: 2,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645615891103)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645615891103)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: null,
+        &quot;OwnerId&quot;: 701882
+    },
+    {
+        &quot;Id&quot;: 11002588,
+        &quot;Content&quot;: &quot;Try to drag and reorder items&quot;,
+        &quot;ItemType&quot;: 1,
+        &quot;Checked&quot;: false,
+        &quot;ProjectId&quot;: 3981478,
+        &quot;ParentId&quot;: null,
+        &quot;Path&quot;: &quot;&quot;,
+        &quot;Collapsed&quot;: true,
+        &quot;DateString&quot;: null,
+        &quot;DateStringPriority&quot;: 0,
+        &quot;DueDate&quot;: &quot;&quot;,
+        &quot;Recurrence&quot;: null,
+        &quot;ItemOrder&quot;: 3,
+        &quot;Priority&quot;: 4,
+        &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765474711)/&quot;,
+        &quot;Children&quot;: [
+            
+        ],
+        &quot;DueDateTime&quot;: null,
+        &quot;CreatedDate&quot;: &quot;/Date(1645615891103)/&quot;,
+        &quot;LastCheckedDate&quot;: null,
+        &quot;LastUpdatedDate&quot;: &quot;/Date(1645707542817)/&quot;,
+        &quot;Deleted&quot;: false,
+        &quot;Notes&quot;: &quot;&quot;,
+        &quot;InHistory&quot;: false,
+        &quot;SyncClientCreationId&quot;: null,
+        &quot;DueTimeSpecified&quot;: null,
+        &quot;OwnerId&quot;: 701882
+    }
+]
+-------------UPDATE------------
+Request method:	PUT
+Request URI:	https://todo.ly/api/items/11003354.json
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Authorization=Basic dXBiX2FwaUBhcGkuY29tOjEyMzQ1
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{&quot;Content&quot;:&quot;CristianJSON_UPDATE&quot;}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=20zgigrmeprxreae2lveik43; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 25 Feb 2022 05:04:36 GMT
+Content-Length: 540
+
+{
+    &quot;Id&quot;: 11003354,
+    &quot;Content&quot;: &quot;CristianJSON_UPDATE&quot;,
+    &quot;ItemType&quot;: 1,
+    &quot;Checked&quot;: false,
+    &quot;ProjectId&quot;: null,
+    &quot;ParentId&quot;: null,
+    &quot;Path&quot;: &quot;&quot;,
+    &quot;Collapsed&quot;: false,
+    &quot;DateString&quot;: null,
+    &quot;DateStringPriority&quot;: 0,
+    &quot;DueDate&quot;: &quot;&quot;,
+    &quot;Recurrence&quot;: null,
+    &quot;ItemOrder&quot;: null,
+    &quot;Priority&quot;: 4,
+    &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765476334)/&quot;,
+    &quot;Children&quot;: [
+        
+    ],
+    &quot;DueDateTime&quot;: null,
+    &quot;CreatedDate&quot;: &quot;/Date(1645765472403)/&quot;,
+    &quot;LastCheckedDate&quot;: null,
+    &quot;LastUpdatedDate&quot;: &quot;/Date(1645765476320)/&quot;,
+    &quot;Deleted&quot;: false,
+    &quot;Notes&quot;: &quot;&quot;,
+    &quot;InHistory&quot;: false,
+    &quot;SyncClientCreationId&quot;: null,
+    &quot;DueTimeSpecified&quot;: true,
+    &quot;OwnerId&quot;: 701882
+}
+-------------DELETE------------
+Request method:	DELETE
+Request URI:	https://todo.ly/api/items/11003342.json
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Authorization=Basic dXBiX2FwaUBhcGkuY29tOjEyMzQ1
+				Accept=*/*
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=bpk4m25xrhtaezsxzn3q33dj; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 25 Feb 2022 05:04:37 GMT
+Content-Length: 532
+
+{
+    &quot;Id&quot;: 11003342,
+    &quot;Content&quot;: &quot;CristianJSON&quot;,
+    &quot;ItemType&quot;: 1,
+    &quot;Checked&quot;: false,
+    &quot;ProjectId&quot;: null,
+    &quot;ParentId&quot;: null,
+    &quot;Path&quot;: &quot;&quot;,
+    &quot;Collapsed&quot;: false,
+    &quot;DateString&quot;: null,
+    &quot;DateStringPriority&quot;: 0,
+    &quot;DueDate&quot;: &quot;&quot;,
+    &quot;Recurrence&quot;: null,
+    &quot;ItemOrder&quot;: null,
+    &quot;Priority&quot;: 4,
+    &quot;LastSyncedDateTime&quot;: &quot;/Date(1645765477410)/&quot;,
+    &quot;Children&quot;: [
+        
+    ],
+    &quot;DueDateTime&quot;: null,
+    &quot;CreatedDate&quot;: &quot;/Date(1645764842183)/&quot;,
+    &quot;LastCheckedDate&quot;: null,
+    &quot;LastUpdatedDate&quot;: &quot;/Date(1645765477380)/&quot;,
+    &quot;Deleted&quot;: true,
+    &quot;Notes&quot;: &quot;&quot;,
+    &quot;InHistory&quot;: false,
+    &quot;SyncClientCreationId&quot;: null,
+    &quot;DueTimeSpecified&quot;: true,
+    &quot;OwnerId&quot;: 701882
+}
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.1</a> at 25 feb. 2022 1:04:41 a. m.</p>
+</div>
+</div>
+</body>
+</html>
